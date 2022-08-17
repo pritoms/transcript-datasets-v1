@@ -1,0 +1,378 @@
+0:00
+- [Voiceover] Hello and welcome
+0:01
+to multivariable calculus.
+0:04
+So I think I should probably start off
+0:05
+by addressing the elephant in the living room here.
+0:08
+I am, sadly, not Sal,
+0:09
+but I'm still gonna teach you some math.
+0:11
+My name is Grant.
+0:13
+I'm pretty much a math enthusiast.
+0:14
+I enjoy making animations of things when applicable,
+0:17
+and boy, is that applicable
+0:18
+when it comes to multivariable calculus.
+0:21
+So, the first thing we gotta get straight
+0:22
+is what is this word multivariable
+0:25
+that separates calculus, as we know it,
+0:27
+from the new topic that you're about to study?
+0:30
+Well, I could say it's all about multivariable functions,
+0:33
+that doesn't really answer anything
+0:35
+because what's a multivariable function?
+0:36
+And basically, the kinds of functions
+0:39
+that we're used to dealing with,
+0:40
+in the old world, in the ordinary calculus world,
+0:44
+will have a single input, some kind of number
+0:47
+as their input,
+0:48
+and then the output is just a single number.
+0:50
+And you would call this a single variable function.
+0:52
+Basically because that guy there is the single variable.
+0:56
+So then a multivariable function
+0:58
+is something that handles multiple variables.
+1:01
+So, you know, it's common to write it as x, y,
+1:03
+it doesn't really matter what letters to use,
+1:05
+and it could be, you know, x, y, z,
+1:07
+x one, x two, x three, a whole bunch of things,
+1:09
+but just to get started,
+1:11
+we often think just two variables
+1:13
+and this will output something that depends on
+1:15
+both of those.
+1:16
+Commonly it will output just a number,
+1:18
+so you might imagine a number that depends on
+1:20
+x and y in some way, like, x squared plus y,
+1:23
+but it could also output a vector, right?
+1:26
+So you could also imagine something that's
+1:29
+got multivariable input, f of x, y,
+1:33
+and it outputs something that also has
+1:35
+multiple variables, like,
+1:37
+I mean I'm just making stuff up here,
+1:39
+three x and, you know, two y.
+1:42
+And, this isn't set in stone,
+1:44
+but the convention is to usually think
+1:46
+if there's multiple numbers that go into the output,
+1:48
+think of it as a vector,
+1:49
+if there's multiple numbers that go into the input,
+1:51
+just kind of write them,
+1:52
+write them more sideways like this,
+1:53
+and think of them as a point in space.
+1:56
+Because, I mean when you look at something like this,
+1:58
+and you've got an x and you've got a y,
+2:00
+you could think about those as two separate numbers.
+2:02
+You know, here's your number line
+2:03
+with the point x on it somewhere,
+2:05
+maybe that's five, maybe that's three,
+2:07
+it doesn't really matter.
+2:08
+And then you've got another number line
+2:10
+and it's y, and you could think of them
+2:12
+as separate entities.
+2:13
+But, it would probably be more accurate
+2:15
+to call it multidimensional calculus,
+2:18
+because, really, instead of thinking of, you know,
+2:20
+x and y as separate entities,
+2:22
+whenever you see two things like that
+2:24
+you're gonna be thinking about the x y plane.
+2:26
+And thinking about just a single point.
+2:28
+And you'd think of this as a function that takes a point
+2:30
+to a number,
+2:31
+or a point to a vector.
+2:32
+And a lot of people, when they start
+2:33
+teaching multivariable calculus,
+2:35
+they just jump into the calculus,
+2:36
+and there's lots of fun things,
+2:37
+partial derivatives, gradients,
+2:39
+good stuff that you'll learn.
+2:40
+But I think first of all,
+2:41
+I want to spend a couple videos
+2:43
+just talking about the different ways
+2:44
+we visualize the different types
+2:47
+of multivariable functions.
+2:49
+So, as a sneak peak,
+2:50
+I'm just gonna go through a couple of them
+2:52
+really quickly right now,
+2:53
+just so you kind of whet your appetite
+2:55
+and see what I'm getting at,
+2:56
+but the next few videos are going to go through them
+2:58
+in much, much more detail.
+3:00
+So, first of all, graphs.
+3:03
+When you have multivariable functions,
+3:04
+graphs become three dimensional.
+3:07
+But these only really apply to functions that have
+3:08
+some kind of two-dimensional input,
+3:10
+which you might think about as living
+3:11
+on this x y plane,
+3:12
+and a single number as their output
+3:14
+and the height of the graph
+3:15
+is gonna correspond with that output.
+3:17
+Like I said, you'll be able to learn much more
+3:19
+about that in the dedicated video on it,
+3:21
+but these functions also can be visualized
+3:23
+just in two dimensions, flattening things out.
+3:26
+Where we visualize the entire input space
+3:28
+in associated color, with each point.
+3:31
+So this is the kind of thing where you, you know,
+3:33
+you have some function
+3:34
+that's got a two-dimensional input,
+3:36
+that would be f of x, y,
+3:37
+and what we're looking at is the x y plane,
+3:39
+all of the input space,
+3:41
+and this output's just some number,
+3:42
+you know, maybe it's like x squared,
+3:44
+this particular one is an x squared,
+3:45
+but, you know that,
+3:46
+and maybe some complicated thing,
+3:48
+and the color tells you roughly the size
+3:50
+of that output, and the lines here,
+3:52
+called contour lines,
+3:54
+tell you which inputs all share a constant output value.
+3:58
+And again, I'll go into much more detail there.
+4:00
+These are really nice, much more convenient
+4:01
+than three-dimensional graphs,
+4:03
+to just sketch out.
+4:04
+Moving right along,
+4:07
+I'm also gonna talk about surfaces
+4:09
+in three-dimensional space.
+4:10
+They look like graphs,
+4:11
+but they actually deal with a much different animal,
+4:14
+that you could think of it as mapping two dimensions,
+4:16
+and I like to sort of spoosh it about.
+4:18
+And we've got kind of a two-dimensional input,
+4:20
+that somehow moves into three dimensions,
+4:22
+and you're just looking at what the output
+4:24
+of that looks like,
+4:26
+not really caring about how it gets there.
+4:28
+These are called parametric surfaces.
+4:31
+Another fun one is a vector field,
+4:33
+where every input point is associated
+4:35
+with some kind of vector,
+4:36
+which is the output of the function there.
+4:38
+So this would be a function
+4:39
+with a two-dimensional input
+4:40
+and a two-dimensional output
+4:41
+'cause each of these are two-dimensional vectors.
+4:43
+And the fun part with these guys
+4:44
+is that you can just kind of,
+4:47
+imagine a fluid flowing,
+4:49
+so here's a bunch of droplets, like water,
+4:51
+and they kind of flow along that.
+4:52
+And that actually turns out to give insight
+4:54
+about the underlying function.
+4:55
+It's one of those beautiful aspects
+4:57
+of multivariable calc.
+4:58
+And we'll get lots of exposure to that.
+5:00
+Again, I'm just sort of zipping through
+5:01
+to whet your appetite.
+5:02
+Don't worry if this doesn't make sense immediately.
+5:06
+And one of my all-time favorite ways to think about
+5:07
+multivariable functions is to just take the input space,
+5:11
+in this case, this is gonna be a function that inputs
+5:14
+points in two-dimensional space,
+5:15
+and watch them move to their output,
+5:17
+so, this is gonna be a function that also outputs
+5:19
+in two dimensions.
+5:20
+And I'm just gonna watch every single point
+5:22
+move over to where it's supposed to go.
+5:24
+These can be kind of complicated to look at,
+5:27
+or to think about at first,
+5:28
+but as you gain a little bit of thought
+5:30
+and exposure to them,
+5:31
+they're actually very nice,
+5:32
+and it provides a beautiful connection
+5:34
+with linear algebra.
+5:36
+A lot of you out there,
+5:37
+if you're studying multivariable calculus,
+5:38
+you either are about to study linear algebra,
+5:40
+or you just have, or maybe you're doing it concurrently,
+5:43
+but understanding functions as transformations
+5:45
+is gonna be a great way to connect those two.
+5:47
+So with that,
+5:48
+I'll stop jabbering through these topics really quickly
+5:51
+and in the next few videos
+5:53
+I'll actually go through them in detail
+5:55
+and hopefully you can get a good feel
+5:57
+for what multivariable functions can actually feel like.
