@@ -1,0 +1,12 @@
+[
+    {"range": (0.0, 0.04), "topic": "general"},
+    {"range": (0.04, 0.09), "topic": "efective_speaking"},
+    {"range": (0.27, 0.35, "topic": "defining_multivariable_functions"},
+    {"range": (1.03, 1.10), "topic": "multivariable_functions_with_vector_output"},
+    {"range": (2.20, 2.33), "topic": "flat_color_maps"},
+    {"range": (3.02, 3.05), "topic": "graphs"},
+    {"range": (3.05, 3.16), "topic": "three-dimensional_graphs"},
+    {"range": (3.17, 3.24), "topic": "contour_lines"},
+    {"range": (4.07, 4.13), "topic": "surfaces"},
+    {"range": (5.06, 5.14), "topic": "function_transformations"}
+]
